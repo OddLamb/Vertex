@@ -11,8 +11,10 @@ class App():
     def __init__(self):
         # setting the window and clock
         self.window = pg.display.set_mode((WINDOW_RESOLUTION),pg.RESIZABLE)
+        pg.display.set_icon(pg.image.load(os.path.join(os.getcwd(),"./assets/icon.png")))
         self.clock = pg.time.Clock()
         self.running = True
+        
     def update(self):
         # creating an polygon object, and a gui object
         polygon = Polygon(self.window)
@@ -22,7 +24,7 @@ class App():
             # updating the clock
             self.clock.tick(FRAMERATE)
             # showing the fps in the caption of the window
-            pg.display.set_caption(str(int(self.clock.get_fps())))
+            pg.display.set_caption("Vertex")
             # for loop passing through all the pygame events
             for e in pg.event.get():
                 # if the window is being closed
