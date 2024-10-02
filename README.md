@@ -1,3 +1,5 @@
+# Get the .exe version of it in it's [itch.io page](https://loonboonwav.itch.io/vertex)
+# If you want to run it from the source code:
 ## Dependencies
 #### [Python](https://www.python.org/downloads/)
 #### [Pygame](https://www.pygame.org/download.shtml)
