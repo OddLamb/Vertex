@@ -1,4 +1,3 @@
-## Get the .exe version in ➡️ [https://loonboonwav.itch.io/vertex](https://oddlamb.itch.io/vertex)
 ## If you want to run it from the source code:
 ### Dependencies📦
 * [Python](https://www.python.org/downloads/)🐍
